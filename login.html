@@ -35,10 +35,12 @@
 			<img class="logo" src="dist/images/login-logo.svg" data-fallback="dist/images/logo.png" class="logo" alt="Mobivity Logo"/>
 			<form>
 				<h3 class="hide">Incorrect Username or Password</h3>
-				<input type="text" name="username" placeholder="Username"/>
-				<input type="text" name="password" placeholder="Password"/>
-				<a href="#"><p class="forgot"><strong>Forgot your password?</strong></p></a>
+				<div class="form-bg">
+					<input type="text" name="email" placeholder="Email"/>
+					<input type="text" name="password" placeholder="Password"/>
+				</div>
 				<input type="submit" name="signin" value="Sign In"/>
+				<a href="#"><p class="forgot">Forgot?</p></a>
 			</form>
 		</section>
 
