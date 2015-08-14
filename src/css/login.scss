@@ -1,0 +1,138 @@
+@import 'vendors/normalize.scss';
+@import 'includes/variables.scss';
+
+// General
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+// Typography
+
+h1 {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 26.3999996185303px;
+	margin: 0;
+}
+
+h3 {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 15.3999996185303px;
+	margin: 0;
+}
+
+p {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+	margin: 0;
+}
+
+#main {
+	width: 80%;
+	max-width: 960px;
+	margin: 0px auto;
+	margin-top: 40px;
+	text-align: center;
+
+	.logo {
+		width: 100%;
+		max-width: 360px;
+		margin: 0px auto;
+	}
+
+	form {
+		width: 90%;
+		max-width: 360px;
+		margin: 0px auto;
+
+		h3 {
+			color: $red;
+			font-size: 1.25em;
+			margin-top: 20px;
+			line-height: 1.25em;
+		}
+
+		.hide {
+			display: none;
+		}
+
+		input {
+			display: block;
+			width: 100%;
+			margin: 20px auto;
+		}
+
+		input[type="text"] {
+			padding: 10px 0px 10px 10px;
+			border: 2px solid $greyLight;
+			outline: none;
+			-webkit-transition: $standard;
+			-moz-transition: $standard;
+			-ms-transition: $standard;
+			-o-transition: $standard;
+		}
+
+		input[type="text"]:focus {
+			box-shadow: 0 0 5px $green;
+			border: 2px solid $green;
+		}
+
+		a {
+			text-decoration: none;
+			font-weight: bold;
+			color: $grey;
+			-webkit-transition: $standard;
+			-moz-transition: $standard;
+			-ms-transition: $standard;
+			-o-transition: $standard;
+		}
+
+		a:hover {
+			color: $green;
+		}
+
+		input[type="submit"] {
+			width: 80%;
+			padding: 10px;
+			border: 1px solid $grey;
+			background: $grey;
+			color: $white;
+			-webkit-transition: $standard;
+			-moz-transition: $standard;
+			-ms-transition: $standard;
+			-o-transition: $standard;
+		}
+
+		input[type="submit"]:hover {
+			border: 1px solid $green;
+			background: $green;
+		}
+
+	}
+
+	// iPad Styles
+
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 1) {
+		padding-top: 220px;
+	}
+
+	// Desktop Styles
+
+   @media only screen and (min-width : 768px) {
+		padding-top: 220px;
+   }
+
+}
