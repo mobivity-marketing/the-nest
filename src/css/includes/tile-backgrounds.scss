@@ -59,23 +59,23 @@
 // Branding Screen
 
 .guidelines {
-	background: linear-gradient($greenLight, $greenLight), url(../images/branding.jpg);
-	h2 {
-		color: $green;
-	}
-}
-
-.logos {
-	background: linear-gradient($orangeLight, $orangeLight), url(../images/logos.jpg);
+	background: linear-gradient($orangeLight, $orangeLight), url(../images/branding.jpg);
 	h2 {
 		color: $orange;
 	}
 }
 
-.fonts {
-	background: linear-gradient($redLight, $redLight), url(../images/fonts.jpg);
+.logos {
+	background: linear-gradient($redLight, $redLight), url(../images/logos.jpg);
 	h2 {
 		color: $red;
+	}
+}
+
+.fonts {
+	background: linear-gradient($blueLight, $blueLight), url(../images/fonts.jpg);
+	h2 {
+		color: $blue;
 	}
 }
 
@@ -83,4 +83,104 @@
 
 // One Sheets Screen
 
+.sms-sheet {
+	background: linear-gradient($orangeLight, $orangeLight), url(../images/sms-sheet.jpg);
+	h2 {
+		color: $orange;
+	}
+}
+
+.ssms-sheet {
+	background: linear-gradient($redLight, $redLight), url(../images/smartsms-sheet.jpg);
+	h2 {
+		color: $red;
+	}
+}
+
+.smartreceipt-sheet {
+	background: linear-gradient($blueLight, $blueLight), url(../images/smartreceipt-sheet.jpg);
+	h2 {
+		color: $blue;
+	}
+}
+
+.stampt-sheet {
+	background: linear-gradient($purpleLight, $purpleLight), url(../images/stampt-sheet.jpg);
+	h2 {
+		color: $purple;
+	}
+}
+
+.subway-sheets {
+	background: linear-gradient($tealLight, $tealLight), url(../images/subway-smartreceipt-sheet.jpg);
+	h2 {
+		color: $teal;
+	}
+}
+
+.supersalon-sheets {
+	background: linear-gradient($pinkLight, $pinkLight), url(../images/supersalon-smartreceipt-sheet.jpg);
+	h2 {
+		color: $pink;
+	}
+}
+
 // Videos Screen
+
+.sms-video {
+	background: linear-gradient($orangeLight, $orangeLight), url(../images/videos.jpg);
+	h2 {
+		color: $orange;
+	}
+}
+
+.stampt-video {
+	background: linear-gradient($redLight, $redLight), url(../images/stampt-video.jpg);
+	h2 {
+		color: $red;
+	}
+}
+
+.smartreceipt-video {
+	background: linear-gradient($blueLight, $blueLight), url(../images/smartreceipt-video.jpg);
+	h2 {
+		color: $blue;
+	}
+}
+
+.display-video {
+	background: linear-gradient($purpleLight, $purpleLight), url(../images/se-video.jpg);
+	h2 {
+		color: $purple;
+	}
+}
+
+.testimonials {
+	background: linear-gradient($tealLight, $tealLight), url(../images/venezias-testimonial.jpg);
+	h2 {
+		color: $teal;
+	}
+}
+
+// Testimonials Screen
+
+.venezias-video {
+	background: linear-gradient($redLight, $redLight), url(../images/venezias-testimonial.jpg);
+	h2 {
+		color: $red;
+	}
+}
+
+.cfa-one {
+	background: linear-gradient($blueLight, $blueLight), url(../images/cfa-testimonial-1.jpg);
+	h2 {
+		color: $blue;
+	}
+}
+
+.cfa-two {
+	background: linear-gradient($purpleLight, $purpleLight), url(../images/cfa-testimonial-2.jpg);
+	h2 {
+		color: $purple;
+	}
+}
