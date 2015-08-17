@@ -17,6 +17,24 @@ html {
 		background: none;
 		margin-bottom: 60px;
 
+		.banner {
+			background-color: $black;
+			padding-bottom: $gutter;
+			text-align: center;
+			color: $white;
+
+			h1 {
+				margin: 0px auto;
+				padding: 0;
+			}
+
+		}
+
+		.banner-border {
+			background-image: linear-gradient(to right, $green 20%, $orange 20%, $red 40%, $blue 40%, $purple 60%, $teal 60%, $pink 80%);
+			height: 5px;
+		}
+
 		.row {
 			margin-right: 0px;
 			margin-left: 0px;
@@ -37,7 +55,7 @@ html {
 			.card {
 				text-align: center;
 				font-weight: $fontHeavy;
-				padding: 140px 0px;
+				padding: 115px 0px;
 			}
 
 			h2 {

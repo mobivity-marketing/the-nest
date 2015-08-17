@@ -357,6 +357,21 @@ td, th {
   .black h2 {
     color: #231f20; }
 
+.guidelines {
+  background: linear-gradient(rgba(141, 198, 63, 0.75), rgba(141, 198, 63, 0.75)), url(../images/branding.jpg); }
+  .guidelines h2 {
+    color: #8dc63f; }
+
+.logos {
+  background: linear-gradient(rgba(246, 148, 0, 0.8), rgba(246, 148, 0, 0.8)), url(../images/logos.jpg); }
+  .logos h2 {
+    color: #F69400; }
+
+.fonts {
+  background: linear-gradient(rgba(240, 76, 65, 0.8), rgba(240, 76, 65, 0.8)), url(../images/fonts.jpg); }
+  .fonts h2 {
+    color: #F04C41; }
+
 .header {
   width: 100%;
   padding: 40px;
@@ -392,6 +407,17 @@ html {
     height: 100%;
     background: none;
     margin-bottom: 60px; }
+    html body .banner {
+      background-color: #231f20;
+      padding-bottom: 40px;
+      text-align: center;
+      color: #f5f5f5; }
+      html body .banner h1 {
+        margin: 0px auto;
+        padding: 0; }
+    html body .banner-border {
+      background-image: linear-gradient(to right, #8dc63f 20%, #F69400 20%, #F04C41 40%, #29ABE2 40%, #7808CC 60%, #00CCBB 60%, #D92BD9 80%);
+      height: 5px; }
     html body .row {
       margin-right: 0px;
       margin-left: 0px; }
@@ -405,7 +431,7 @@ html {
       html body .main .card {
         text-align: center;
         font-weight: 700;
-        padding: 140px 0px; }
+        padding: 115px 0px; }
       html body .main h2 {
         margin: 0;
         padding: 0;

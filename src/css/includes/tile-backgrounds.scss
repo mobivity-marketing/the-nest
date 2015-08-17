@@ -55,3 +55,32 @@
 		color: $black;
 	}
 }
+
+// Branding Screen
+
+.guidelines {
+	background: linear-gradient($greenLight, $greenLight), url(../images/branding.jpg);
+	h2 {
+		color: $green;
+	}
+}
+
+.logos {
+	background: linear-gradient($orangeLight, $orangeLight), url(../images/logos.jpg);
+	h2 {
+		color: $orange;
+	}
+}
+
+.fonts {
+	background: linear-gradient($redLight, $redLight), url(../images/fonts.jpg);
+	h2 {
+		color: $red;
+	}
+}
+
+// Decks Screen
+
+// One Sheets Screen
+
+// Videos Screen
