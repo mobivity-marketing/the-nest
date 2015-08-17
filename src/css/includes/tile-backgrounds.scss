@@ -1,0 +1,57 @@
+// Main Screen
+
+.branding {
+	background: linear-gradient($greenLight, $greenLight), url(../images/branding.jpg);
+	h2 {
+		color: $green;
+	}
+}
+
+.decks {
+	background: linear-gradient($orangeLight, $orangeLight), url(../images/decks-bg.jpg);
+	h2 {
+		color: $orange;
+	}
+}
+
+.sheets {
+	background: linear-gradient($redLight, $redLight), url(../images/sheets.jpg);
+	h2 {
+		color: $red;
+	}
+}
+
+.videos {
+	background: linear-gradient($blueLight, $blueLight), url(../images/videos.jpg);
+	h2 {
+		color: $blue;
+	}
+}
+
+.purple {
+	background: linear-gradient($purpleLight, $purpleLight), url(../images/tile-placeholder.jpg);
+	h2 {
+		color: $purple;
+	}
+}
+
+.teal {
+	background: linear-gradient($tealLight, $tealLight), url(../images/tile-placeholder.jpg);
+	h2 {
+		color: $teal;
+	}
+}
+
+.pink {
+	background: linear-gradient($pinkLight, $pinkLight), url(../images/tile-placeholder.jpg);
+	h2 {
+		color: $pink;
+	}
+}
+
+.black {
+	background: linear-gradient($blackLight, $blackLight), url(../images/tile-placeholder.jpg);
+	h2 {
+		color: $black;
+	}
+}

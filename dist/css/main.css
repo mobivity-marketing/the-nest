@@ -317,6 +317,46 @@ table {
 td, th {
   padding: 0; }
 
+.branding {
+  background: linear-gradient(rgba(141, 198, 63, 0.75), rgba(141, 198, 63, 0.75)), url(../images/branding.jpg); }
+  .branding h2 {
+    color: #8dc63f; }
+
+.decks {
+  background: linear-gradient(rgba(246, 148, 0, 0.8), rgba(246, 148, 0, 0.8)), url(../images/decks-bg.jpg); }
+  .decks h2 {
+    color: #F69400; }
+
+.sheets {
+  background: linear-gradient(rgba(240, 76, 65, 0.8), rgba(240, 76, 65, 0.8)), url(../images/sheets.jpg); }
+  .sheets h2 {
+    color: #F04C41; }
+
+.videos {
+  background: linear-gradient(rgba(41, 171, 226, 0.8), rgba(41, 171, 226, 0.8)), url(../images/videos.jpg); }
+  .videos h2 {
+    color: #29ABE2; }
+
+.purple {
+  background: linear-gradient(rgba(120, 8, 204, 0.8), rgba(120, 8, 204, 0.8)), url(../images/tile-placeholder.jpg); }
+  .purple h2 {
+    color: #7808CC; }
+
+.teal {
+  background: linear-gradient(rgba(0, 204, 187, 0.8), rgba(0, 204, 187, 0.8)), url(../images/tile-placeholder.jpg); }
+  .teal h2 {
+    color: #00CCBB; }
+
+.pink {
+  background: linear-gradient(rgba(217, 43, 217, 0.8), rgba(217, 43, 217, 0.8)), url(../images/tile-placeholder.jpg); }
+  .pink h2 {
+    color: #D92BD9; }
+
+.black {
+  background: linear-gradient(rgba(35, 31, 32, 0.9), rgba(35, 31, 32, 0.9)), url(../images/tile-placeholder.jpg); }
+  .black h2 {
+    color: #231f20; }
+
 .header {
   width: 100%;
   padding: 40px;
@@ -337,8 +377,7 @@ td, th {
   .footer a {
     text-decoration: none;
     color: rgba(245, 245, 245, 0.8);
-    transition: all 0.35s ease;
-    font-weight: 400; }
+    transition: all 0.35s ease; }
     .footer a:hover {
       color: #8dc63f; }
 
@@ -346,12 +385,36 @@ html {
   position: relative;
   min-height: 100%;
   background: #231f20;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300; }
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased; }
   html body {
     width: 100%;
     height: 100%;
     background: none;
     margin-bottom: 60px; }
+    html body .row {
+      margin-right: 0px;
+      margin-left: 0px; }
+    html body .main {
+      margin-bottom: 40px; }
+      html body .main a {
+        text-decoration: none;
+        color: #f5f5f5; }
+        html body .main a:hover {
+          text-decoration: none; }
+      html body .main .card {
+        text-align: center;
+        font-weight: 700;
+        padding: 140px 0px; }
+      html body .main h2 {
+        margin: 0;
+        padding: 0;
+        font-size: 1.7em;
+        background: #f5f5f5;
+        border: 1px solid #f5f5f5;
+        border-radius: 35px;
+        padding: 5px 10px;
+        max-width: 50%;
+        margin: 0px auto; }
 
 /*# sourceMappingURL=main.css.map */

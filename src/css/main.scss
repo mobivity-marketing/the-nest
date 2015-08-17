@@ -1,5 +1,6 @@
 @import 'vendors/normalize.scss';
 @import 'includes/variables.scss';
+@import 'includes/tile-backgrounds.scss';
 @import 'includes/header.scss';
 @import 'includes/footer.scss';
 
@@ -7,14 +8,52 @@ html {
 	position: relative;
 	min-height: 100%;
   background: $black;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-	font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
 	
 	body {
 		width: 100%;
 		height: 100%;
 		background: none;
 		margin-bottom: 60px;
+
+		.row {
+			margin-right: 0px;
+			margin-left: 0px;
+		}
+		
+		.main {
+			margin-bottom: $gutter;
+			a {
+				text-decoration: none;
+				color: $white;
+					
+				&:hover {
+					text-decoration: none;
+				}
+
+			}
+
+			.card {
+				text-align: center;
+				font-weight: $fontHeavy;
+				padding: 140px 0px;
+			}
+
+			h2 {
+				margin: 0;
+				padding: 0;
+				font-size: 1.7em;
+				background: $white;
+				border: 1px solid $white;
+				border-radius: 35px;
+				padding: 5px 10px;
+				max-width: 50%;
+				margin: 0px auto;
+			}
+
+		}
+
 	}
 
 }

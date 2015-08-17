@@ -5,13 +5,12 @@
   height: 60px;
   text-align: center;
   color: $whiteLight;
-  font-weight: 300;
+  font-weight: $fontLight;
 
 	a {
 		text-decoration: none;
 		color: $whiteLight;
 		transition: $standard;
-		font-weight: 400;
 
 		&:hover {
 			color: $green;

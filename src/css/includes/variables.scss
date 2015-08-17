@@ -9,11 +9,33 @@ $greyLight: rgba(148, 156, 161, 0.8);
 $darkGreen: #70AB20;
 $black: #231f20;
 $blackLight: rgba(35, 31, 32, 0.9);
+
+// Tile Background Specific Colors
+
+$orange: #F69400;
+$orangeLight: rgba(246, 148, 0, 0.8);
 $red: #F04C41;
+$redLight: rgba(240, 76, 65, 0.8);
+$blue: #29ABE2;
+$blueLight: rgba(41, 171, 226, 0.8);
+$purple: #7808CC;
+$purpleLight: rgba(120, 8, 204, 0.8);
+$teal: #00CCBB;
+$tealLight: rgba(0, 204, 187, 0.8);
+$pink: #D92BD9;
+$pinkLight: rgba(217, 43, 217, 0.8);
+
 
 // Transition
+
 $standard: all 0.35s ease;
 
 // Sizing
 
 $gutter: 40px;
+
+// Typography
+
+$fontLight: 300;
+$fontNormal: 400;
+$fontHeavy: 700;
