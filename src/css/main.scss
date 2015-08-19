@@ -63,6 +63,14 @@ html {
 				padding: 5px 10px;
 				max-width: 50%;
 				margin: 0px auto;
+				transition: all 0.25s ease;
+
+				&:hover {
+					-webkit-box-shadow: 0 6px 4px -4px $blackExtraLight;
+					-moz-box-shadow: 0 6px 4px -4px $blackExtraLight;
+					box-shadow: 0 6px 4px -4px $blackExtraLight;
+				}
+
 			}
 
 		}
