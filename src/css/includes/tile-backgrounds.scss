@@ -171,8 +171,8 @@
 
 // One Sheets Screen
 
-.sms-sheet {
-	background: linear-gradient($orangeLight, $orangeLight), url(../images/sms-sheet.jpg);
+.smartreceipt-sheet {
+	background: linear-gradient($orangeLight, $orangeLight), url(../images/smartreceipt-sheet.jpg);
 	h2 {
 		color: $orange;
 	}
@@ -185,8 +185,8 @@
 	}
 }
 
-.smartreceipt-sheet {
-	background: linear-gradient($blueLight, $blueLight), url(../images/smartreceipt-sheet.jpg);
+.sms-sheet {
+	background: linear-gradient($blueLight, $blueLight), url(../images/sms-sheet.jpg);
 	h2 {
 		color: $blue;
 	}
@@ -215,29 +215,29 @@
 
 // Videos Screen
 
-.sms-video {
-	background: linear-gradient($orangeLight, $orangeLight), url(../images/videos.jpg);
+.display-video {
+	background: linear-gradient($orangeLight, $orangeLight), url(../images/se-video.jpg);
 	h2 {
 		color: $orange;
 	}
 }
 
-.stampt-video {
-	background: linear-gradient($redLight, $redLight), url(../images/stampt-video.jpg);
+.smartreceipt-video {
+	background: linear-gradient($redLight, $redLight), url(../images/smartreceipt-video.jpg);
 	h2 {
 		color: $red;
 	}
 }
 
-.smartreceipt-video {
-	background: linear-gradient($blueLight, $blueLight), url(../images/smartreceipt-video.jpg);
+.sms-video {
+	background: linear-gradient($blueLight, $blueLight), url(../images/videos.jpg);
 	h2 {
 		color: $blue;
 	}
 }
 
-.display-video {
-	background: linear-gradient($purpleLight, $purpleLight), url(../images/se-video.jpg);
+.stampt-video {
+	background: linear-gradient($purpleLight, $purpleLight), url(../images/stampt-video.jpg);
 	h2 {
 		color: $purple;
 	}
