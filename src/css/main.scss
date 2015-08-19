@@ -7,7 +7,7 @@
 html { 
 	position: relative;
 	min-height: 100%;
-  background: $black;
+  background: $white;
   font-family: 'Open Sans', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	
@@ -18,10 +18,9 @@ html {
 		margin-bottom: 80px;
 
 		.banner {
-			background-color: $black;
 			padding-bottom: $gutter;
 			text-align: center;
-			color: $white;
+			color: $blackExtraLight;
 
 			h1 {
 				margin: 0px auto;
@@ -29,7 +28,7 @@ html {
 			}
 
 			p {
-				font-size: 2em;
+				font-size: 1.5em;
 				font-weight: $fontLight;
 			}
 
