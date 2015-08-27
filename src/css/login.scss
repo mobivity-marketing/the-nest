@@ -3,16 +3,29 @@
 
 // General
 
-// html, body {
-// 	width: 100%;
-// 	height: 100%;
-// 	// background: url(https://unsplash.it/1920/1080/?random) no-repeat center center fixed; 
-// 	background: $white;
-//   -webkit-background-size: cover;
-//   -moz-background-size: cover;
-//   -o-background-size: cover;
-//   background-size: cover;
-// }
+html, body {
+	background: $white;
+	// background: url(https://unsplash.it/g/1920/1080/?random) no-repeat center center fixed; 
+ //  -webkit-background-size: cover;
+ //  -moz-background-size: cover;
+ //  -o-background-size: cover;
+ //  background-size: cover;
+  max-width: 100%;
+	max-height: 100%;
+	padding-top: 40px;
+	
+	// &:before {
+ //    content: '';
+	// 	position: absolute;
+	// 	top: 0;
+	// 	right: 0;
+	// 	bottom: 0;
+	// 	left: 0;
+	// 	background-image: linear-gradient(to bottom right,$blackLight,#dc4225);
+	// 	opacity: .6; 
+ //  }
+
+}
 
 // Typography
 
@@ -142,13 +155,13 @@ p {
 	// iPad Styles
 
 	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 1) {
-		padding-top: 220px;
+		padding-top: 180px;
 	}
 
 	// Desktop Styles
 
    @media only screen and (min-width : 768px) {
-		margin-top: 220px;
+		margin-top: 180px;
    }
 
 }
