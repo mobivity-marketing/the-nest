@@ -167,13 +167,35 @@
 	}
 }
 
+<<<<<<< HEAD
 .quiznos {
 	background: linear-gradient($tealLight, $tealLight), url(../images/quiznos-bg.jpg);
+=======
+.subway {
+	background: linear-gradient($tealLight, $tealLight), url(../images/subway-bg.jpg);
+>>>>>>> master
 	h2 {
 		color: $teal;
 	}
 }
 
+<<<<<<< HEAD
+=======
+.source-deck {
+	background: linear-gradient($redLight, $redLight), url(../images/subway-bg.jpg);
+	h2 {
+		color: $red;
+	}
+}
+
+.redskins-deck {
+	background: linear-gradient($blueLight, $blueLight), url(../images/subway-bg.jpg);
+	h2 {
+		color: $blue;
+	}
+}
+
+>>>>>>> master
 // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // 
 
 // One Sheets Screen

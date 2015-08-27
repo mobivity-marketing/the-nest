@@ -1,0 +1,281 @@
+// Main Screen
+
+.branding {
+	background: linear-gradient($greenLight, $greenLight), url(../images/branding.jpg);
+	h2 {
+		color: $green;
+	}
+}
+
+.decks {
+	background: linear-gradient($orangeLight, $orangeLight), url(../images/decks-bg.jpg);
+	h2 {
+		color: $orange;
+	}
+}
+
+.sheets {
+	background: linear-gradient($redLight, $redLight), url(../images/sheets.jpg);
+	h2 {
+		color: $red;
+	}
+}
+
+.videos {
+	background: linear-gradient($blueLight, $blueLight), url(../images/videos.jpg);
+	h2 {
+		color: $blue;
+	}
+}
+
+.purple {
+	background: linear-gradient($purpleLight, $purpleLight), url(../images/tile-placeholder.jpg);
+	h2 {
+		color: $purple;
+	}
+}
+
+.teal {
+	background: linear-gradient($tealLight, $tealLight), url(../images/tile-placeholder.jpg);
+	h2 {
+		color: $teal;
+	}
+}
+
+.pink {
+	background: linear-gradient($pinkLight, $pinkLight), url(../images/tile-placeholder.jpg);
+	h2 {
+		color: $pink;
+	}
+}
+
+.black {
+	background: linear-gradient($blackLight, $blackLight), url(../images/tile-placeholder.jpg);
+	h2 {
+		color: $black;
+	}
+}
+
+// Branding Screen
+
+.guidelines {
+	background: linear-gradient($orangeLight, $orangeLight), url(../images/branding.jpg);
+	h2 {
+		color: $orange;
+	}
+}
+
+.logos {
+	background: linear-gradient($redLight, $redLight), url(../images/logos.jpg);
+	h2 {
+		color: $red;
+	}
+}
+
+.fonts {
+	background: linear-gradient($blueLight, $blueLight), url(../images/fonts.jpg);
+	h2 {
+		color: $blue;
+	}
+}
+
+// Decks Screen
+
+// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // 
+
+.deck-template {
+	background: linear-gradient($orangeLight, $orangeLight), url(../images/mobivity-bg.jpg);
+	h2 {
+		color: $orange;
+	}
+}
+
+.seven-eleven {
+	background: linear-gradient($redLight, $redLight), url(../images/7-eleven-bg.jpg);
+	h2 {
+		color: $red;
+	}
+}
+
+.baskin-robbins {
+	background: linear-gradient($blueLight, $blueLight), url(../images/baskin-robbins-bg.jpg);
+	h2 {
+		color: $blue;
+	}
+}
+
+.bob-evans {
+	background: linear-gradient($purpleLight, $purpleLight), url(../images/bob-evans-bg.jpg);
+	h2 {
+		color: $purple;
+	}
+}
+
+.cpk {
+	background: linear-gradient($tealLight, $tealLight), url(../images/cpk-bg.jpg);
+	h2 {
+		color: $teal;
+	}
+}
+
+.casual-dining {
+	background: linear-gradient($pinkLight, $pinkLight), url(../images/casual-dining-bg.jpg);
+	h2 {
+		color: $pink;
+	}
+}
+
+.churchs-chicken {
+	background: linear-gradient($blackLight, $blackLight), url(../images/churchs-chicken-bg.jpg);
+	h2 {
+		color: $black;
+	}
+}
+
+.dairy-queen {
+	background: linear-gradient($greenLight, $greenLight), url(../images/dairy-queen-bg.jpg);
+	h2 {
+		color: $green;
+	}
+}
+
+.giraffas {
+	background: linear-gradient($orangeLight, $orangeLight), url(../images/giraffas-bg.jpg);
+	h2 {
+		color: $orange;
+	}
+}
+
+.little-caesars {
+	background: linear-gradient($redLight, $redLight), url(../images/little-caesars-bg.jpg);
+	h2 {
+		color: $red;
+	}
+}
+
+.panda-express {
+	background: linear-gradient($blueLight, $blueLight), url(../images/panda-express-bg.jpg);
+	h2 {
+		color: $blue;
+	}
+}
+
+.petsmart {
+	background: linear-gradient($purpleLight, $purpleLight), url(../images/petsmart-bg.jpg);
+	h2 {
+		color: $purple;
+	}
+}
+
+.quiznos {
+	background: linear-gradient($tealLight, $tealLight), url(../images/quiznos-bg.jpg);
+	h2 {
+		color: $teal;
+	}
+}
+
+// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // 
+
+// One Sheets Screen
+
+.smartreceipt-sheet {
+	background: linear-gradient($orangeLight, $orangeLight), url(../images/smartreceipt-sheet.jpg);
+	h2 {
+		color: $orange;
+	}
+}
+
+.ssms-sheet {
+	background: linear-gradient($redLight, $redLight), url(../images/smartsms-sheet.jpg);
+	h2 {
+		color: $red;
+	}
+}
+
+.sms-sheet {
+	background: linear-gradient($blueLight, $blueLight), url(../images/sms-sheet.jpg);
+	h2 {
+		color: $blue;
+	}
+}
+
+.stampt-sheet {
+	background: linear-gradient($purpleLight, $purpleLight), url(../images/stampt-sheet.jpg);
+	h2 {
+		color: $purple;
+	}
+}
+
+.subway-sheets {
+	background: linear-gradient($tealLight, $tealLight), url(../images/subway-smartreceipt-sheet.jpg);
+	h2 {
+		color: $teal;
+	}
+}
+
+.supersalon-sheets {
+	background: linear-gradient($pinkLight, $pinkLight), url(../images/supersalon-smartreceipt-sheet.jpg);
+	h2 {
+		color: $pink;
+	}
+}
+
+// Videos Screen
+
+.display-video {
+	background: linear-gradient($orangeLight, $orangeLight), url(../images/se-video.jpg);
+	h2 {
+		color: $orange;
+	}
+}
+
+.smartreceipt-video {
+	background: linear-gradient($redLight, $redLight), url(../images/smartreceipt-video.jpg);
+	h2 {
+		color: $red;
+	}
+}
+
+.sms-video {
+	background: linear-gradient($blueLight, $blueLight), url(../images/videos.jpg);
+	h2 {
+		color: $blue;
+	}
+}
+
+.stampt-video {
+	background: linear-gradient($purpleLight, $purpleLight), url(../images/stampt-video.jpg);
+	h2 {
+		color: $purple;
+	}
+}
+
+.testimonials {
+	background: linear-gradient($tealLight, $tealLight), url(../images/venezias-testimonial.jpg);
+	h2 {
+		color: $teal;
+	}
+}
+
+// Testimonials Screen
+
+.venezias-video {
+	background: linear-gradient($redLight, $redLight), url(../images/venezias-testimonial.jpg);
+	h2 {
+		color: $red;
+	}
+}
+
+.cfa-one {
+	background: linear-gradient($blueLight, $blueLight), url(../images/cfa-testimonial-1.jpg);
+	h2 {
+		color: $blue;
+	}
+}
+
+.cfa-two {
+	background: linear-gradient($purpleLight, $purpleLight), url(../images/cfa-testimonial-2.jpg);
+	h2 {
+		color: $purple;
+	}
+}
