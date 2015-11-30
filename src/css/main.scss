@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
 @import 'vendors/normalize.scss';
 @import 'includes/variables.scss';
 @import 'includes/tile-backgrounds.scss';
@@ -8,28 +10,43 @@ html {
 	position: relative;
 	min-height: 100%;
   background: $white;
-  font-family: 'Open Sans', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	
 	body {
 		width: 100%;
 		height: 100%;
 		background: none;
-		margin-bottom: 80px;
+		margin-bottom: 81px;
+		font-family: 'Roboto', sans-serif;
 
 		.banner {
-			padding-bottom: $gutter;
+			padding: $gutter/2 0;
+			border-top: 1px solid $greyExtraLight;
 			text-align: center;
-			color: $blackExtraLight;
-
-			h1 {
-				margin: 0px auto;
-				padding: 0;
-			}
+			background-color: $white;
 
 			p {
-				font-size: 1.5em;
+				font-size: 1.25em;
 				font-weight: $fontLight;
+				color: $blackExtraLight;
+				padding: 0;
+				margin: 0;
+
+				span {
+					font-weight: $fontHeavy;
+				}
+
+				a {
+					color: $blackExtraLight;
+					text-decoration: none;
+					transition: $standard;
+
+					&:hover {
+						color: $green;
+					}
+
+				}
+
 			}
 
 		}
@@ -40,7 +57,7 @@ html {
 		}
 		
 		.main {
-			margin-bottom: $gutter;
+
 			a {
 				text-decoration: none;
 				color: $white;
@@ -55,6 +72,7 @@ html {
 				text-align: center;
 				font-weight: $fontHeavy;
 				padding: 115px 0px;
+				// border: 1.5px solid $white;
 			}
 
 			h2 {

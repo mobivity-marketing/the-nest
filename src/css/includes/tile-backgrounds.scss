@@ -17,7 +17,9 @@
 .sheets {
 	background: linear-gradient($redLight, $redLight), url(../images/sheets.jpg);
 	h2 {
-		color: $red;
+		background: #fff;
+    color: #000;
+    mix-blend-mode: lighten;
 	}
 }
 
