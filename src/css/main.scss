@@ -100,3 +100,51 @@ html {
 	}
 
 }
+
+.articles {
+	font-size: 1.5em;
+	text-align: center;
+
+	a {
+		color: $grey;
+		transition: $standard;
+
+		&:hover {
+			text-decoration: none;
+			color: $green;
+		}
+
+	}
+
+	li {
+		list-style: none;
+		padding-bottom: $gutter/2;
+	}
+	
+	.title {
+		font-weight: bold;
+	}
+
+	.publication {
+		font-style: italic;
+		color: $blackExtraLight;
+
+		&:after {
+			content: "  -  ";
+		}
+	}
+
+	.date {
+		color: $blackExtraLight;
+	}
+
+}
+
+
+
+
+
+
+
+
+

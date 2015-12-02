@@ -14,8 +14,8 @@
 	}
 }
 
-.sheets {
-	background: linear-gradient($redLight, $redLight), url(../images/sheets.jpg);
+.mobivity-news {
+	background: linear-gradient($redLight, $redLight), url(../images/mobivity-news.jpg);
 	h2 {
 		background: #fff;
     color: #000;
@@ -23,22 +23,22 @@
 	}
 }
 
-.press-releases {
-	background: linear-gradient($blueLight, $blueLight), url(../images/press-releases-bg.jpg);
+.sheets {
+	background: linear-gradient($blueLight, $blueLight), url(../images/sheets.jpg);
 	h2 {
 		color: $blue;
 	}
 }
 
-.videos {
-	background: linear-gradient($purpleLight, $purpleLight), url(../images/videos.jpg);
+.press-releases {
+	background: linear-gradient($purpleLight, $purpleLight), url(../images/press-releases-bg.jpg);
 	h2 {
 		color: $purple;
 	}
 }
 
-.teal {
-	background: linear-gradient($tealLight, $tealLight), url(../images/tile-placeholder.jpg);
+.videos {
+	background: linear-gradient($tealLight, $tealLight), url(../images/videos.jpg);
 	h2 {
 		color: $teal;
 	}
