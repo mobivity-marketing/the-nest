@@ -102,7 +102,7 @@ html {
 }
 
 .articles {
-	font-size: 1.5em;
+	font-size: 1.25em;
 	text-align: center;
 
 	a {
@@ -116,7 +116,14 @@ html {
 
 	}
 
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+
 	li {
+		padding: 0;
+		margin: 0;
 		list-style: none;
 		padding-bottom: $gutter/2;
 	}
