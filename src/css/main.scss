@@ -22,6 +22,7 @@ html {
 		.banner {
 			padding: $gutter/2 0;
 			border-top: 1px solid $greyExtraLight;
+			border-bottom: 1px solid $greyExtraLight;
 			text-align: center;
 			background-color: $white;
 
@@ -104,13 +105,15 @@ html {
 .articles {
 	font-size: 1.25em;
 	text-align: center;
+	padding: $gutter/2 0;
 
 	a {
-		color: $grey;
+		color: $blackExtraLight;
 		transition: $standard;
+		text-decoration: underline;
 
 		&:hover {
-			text-decoration: none;
+			// text-decoration: none;
 			color: $green;
 		}
 
@@ -129,12 +132,12 @@ html {
 	}
 	
 	.title {
-		font-weight: bold;
+		// font-weight: bold;
 	}
 
 	.publication {
 		font-style: italic;
-		color: $blackExtraLight;
+		color: $grey;
 
 		&:after {
 			content: "  -  ";
@@ -142,7 +145,7 @@ html {
 	}
 
 	.date {
-		color: $blackExtraLight;
+		color: $grey;
 	}
 
 }
